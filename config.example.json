@@ -1,0 +1,235 @@
+{
+  "window_title": "PUBG",
+  "threshold": 0.9,
+  "stable_frames": 3,
+  "interval": 0.5,
+  "mouse_corner_pause": false,
+  "cooldown": 12,
+  "overlay": {"enabled": true},
+  "anti_stuck": {
+    "enabled": true,
+    "check_after_jump_seconds": 30,
+    "stationary_seconds": 1,
+    "cooldown_seconds": 15,
+    "mean_change_threshold": 2.5,
+    "stable_tile_fraction": 0.85,
+    "minimap_relative_rect": [0.852, 0.739, 0.980, 0.968],
+    "motion_confirm_frames": 2,
+    "backward_seconds": 1.2,
+    "sidestep_seconds": 1.5,
+    "vault_enabled": true,
+    "vault_settle_seconds": 2.0,
+    "vault_observe_seconds": 3.0
+  },
+  "movement": {
+    "enabled": true,
+    "jump_delay_seconds": 120,
+    "pickup_enabled": true,
+    "pickup_interval_seconds": 0.5,
+    "pickup_delay_after_jump_seconds": 30,
+    "sprint": true,
+    "turn_right_pixels": 4050,
+    "look_down_pixels": 5000,
+    "keyboard_backend": "scan"
+  },
+  "screen_size": [
+    2559,
+    1440
+  ],
+  "templates": {
+    "start": {
+      "path": "templates/start.png",
+      "rect": [
+        244,
+        1262,
+        387,
+        1315
+      ],
+      "relative_rect": [
+        0.09534974599452911,
+        0.8763888888888889,
+        0.15123094958968347,
+        0.9131944444444444
+      ],
+      "action": {
+        "key": "f"
+      },
+      "screen_size": [
+        2559,
+        1440
+      ]
+    },
+    "return_lobby": {
+      "path": "templates/return_lobby.png",
+      "rect": [
+        150,
+        1335,
+        281,
+        1375
+      ],
+      "relative_rect": [
+        0.05861664712778429,
+        0.9270833333333334,
+        0.1098085189527159,
+        0.9548611111111112
+      ],
+      "action": {
+        "click": true
+      },
+      "screen_size": [
+        2559,
+        1440
+      ],
+      "guards": [
+        {
+          "path": "templates/return_lobby_guard.png",
+          "rect": [
+            94,
+            194,
+            781,
+            272
+          ],
+          "relative_rect": [
+            0.03673309886674482,
+            0.13472222222222222,
+            0.3051973427119969,
+            0.18888888888888888
+          ]
+        }
+      ],
+      "click_point": [
+        214,
+        1354
+      ],
+      "relative_click_point": [
+        0.08349609375,
+        0.9401041666666666
+      ]
+    },
+    "confirm": {
+      "path": "templates/confirm.png",
+      "rect": [
+        1105,
+        858,
+        1171,
+        894
+      ],
+      "relative_rect": [
+        0.4318093005080109,
+        0.5958333333333333,
+        0.457600625244236,
+        0.6208333333333333
+      ],
+      "action": {
+        "click": true
+      },
+      "screen_size": [
+        2559,
+        1440
+      ],
+      "guards": [
+        {
+          "path": "templates/confirm_guard.png",
+          "rect": [
+            1128,
+            558,
+            1442,
+            620
+          ],
+          "relative_rect": [
+            0.44079718640093785,
+            0.3875,
+            0.5635013677217663,
+            0.4305555555555556
+          ]
+        }
+      ],
+      "click_point": [
+        1136,
+        875
+      ],
+      "relative_click_point": [
+        0.44384765625,
+        0.6076388888888888
+      ]
+    },
+    "continue_results": {
+      "path": "templates/continue_results.png",
+      "rect": [
+        207,
+        1344,
+        262,
+        1371
+      ],
+      "relative_rect": [
+        0.08089097303634232,
+        0.9333333333333333,
+        0.10238374364986323,
+        0.9520833333333333
+      ],
+      "action": {
+        "key": "esc"
+      },
+      "screen_size": [
+        2559,
+        1440
+      ],
+      "guards": [
+        {
+          "path": "templates/continue_results_guard.png",
+          "rect": [
+            2124,
+            106,
+            2482,
+            169
+          ],
+          "relative_rect": [
+            0.8300117233294255,
+            0.07361111111111111,
+            0.9699101211410708,
+            0.11736111111111111
+          ]
+        }
+      ]
+    },
+    "close_rewards": {
+      "path": "templates/close_rewards.png",
+      "rect": [
+        209,
+        1342,
+        262,
+        1372
+      ],
+      "relative_rect": [
+        0.08167252833137945,
+        0.9319444444444445,
+        0.10238374364986323,
+        0.9527777777777777
+      ],
+      "action": {
+        "key": "esc"
+      },
+      "screen_size": [
+        2559,
+        1440
+      ],
+      "guards": [
+        {
+          "path": "templates/close_rewards_guard.png",
+          "rect": [
+            1093,
+            249,
+            1225,
+            281
+          ],
+          "relative_rect": [
+            0.4271199687377882,
+            0.17291666666666666,
+            0.47870261821023835,
+            0.1951388888888889
+          ]
+        }
+      ]
+    }
+  }
+}
