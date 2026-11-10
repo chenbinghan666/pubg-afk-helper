@@ -14,6 +14,14 @@ Python · OpenCV · Windows
 Herramienta de proceso automático PUBG basada en reconocimiento de pantalla **OpenCV, entrada de simulación de Windows y detección de cambios de minimapa**.
 Identifique el vestíbulo y la interfaz de pago, realice procesos configurables de coincidencia, salto, movimiento, recogida y escape, y muestre el paso actual a través de la ventana de estado superior.
 
+## Demostración
+
+Prueba el detector OpenCV con cinco imágenes sintéticas y verifica que una imagen vacía no da coincidencias.
+
+[![Demostración](../../docs/images/project-demo.gif)](../../docs/images/project-demo.mp4)
+
+[Descargar MP4](../../docs/images/project-demo.mp4?raw=true)
+
 ## Función
 
 - La interfaz **reconoce**: lobby, regreso al lobby, confirmación de salida, liquidación de personajes y página de recompensas; Confirmación de reconocimiento continuo y limitación de operaciones repetidas.

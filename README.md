@@ -17,6 +17,14 @@ Python · OpenCV · Windows
 *A Windows screen-recognition helper with configurable match flow, timed input,
 minimap-based stuck detection and a click-through status overlay.*
 
+## 实操演示
+
+用仓库的 OpenCV 检测器识别五张合成测试画面，并用空白画面验证无匹配结果。
+
+[![实操演示](docs/images/project-demo.gif)](docs/images/project-demo.mp4)
+
+[下载 MP4](docs/images/project-demo.mp4?raw=true)
+
 ## 功能
 
 - **界面识别**：大厅、返回大厅、退出确认、人物结算和奖励页；连续识别确认并限制重复操作。

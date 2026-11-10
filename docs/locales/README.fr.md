@@ -14,6 +14,14 @@ Python · OpenCV · Windows
 Outil de processus automatique PUBG basé sur la reconnaissance d'écran **OpenCV, la saisie de simulation Windows et la détection de changement de mini-carte**.
 Identifiez l'interface du lobby et de la caisse, effectuez des processus de correspondance, de saut, de déplacement, de récupération et d'échappement configurables, et affichez l'étape en cours dans la fenêtre d'état des frais généraux.
 
+## Démonstration
+
+Teste le détecteur OpenCV sur cinq images synthétiques et vérifie qu’une image vide ne produit aucun résultat.
+
+[![Démonstration](../../docs/images/project-demo.gif)](../../docs/images/project-demo.mp4)
+
+[Télécharger le MP4](../../docs/images/project-demo.mp4?raw=true)
+
 ## Fonction
 
 - L'interface **reconnaît** : lobby, retour au lobby, confirmation de sortie, règlement du personnage et page de récompense ; confirmation de reconnaissance continue et limitation des opérations répétées.

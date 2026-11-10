@@ -14,6 +14,14 @@ Python · OpenCV · Windows
 Automatisches PUBG-Prozesstool basierend auf **OpenCV-Bildschirmerkennung, Windows-Simulationseingabe und Minimap-Änderungserkennung**.
 Identifizieren Sie die Lobby- und Kassenschnittstelle, führen Sie konfigurierbare Matching-, Sprung-, Bewegungs-, Abhol- und Fluchtprozesse durch und zeigen Sie den aktuellen Schritt über das Overhead-Statusfenster an.
 
+## Demo
+
+Prüft mit OpenCV fünf synthetische Testbilder und ein leeres Bild ohne Treffer.
+
+[![Demo](../../docs/images/project-demo.gif)](../../docs/images/project-demo.mp4)
+
+[MP4 herunterladen](../../docs/images/project-demo.mp4?raw=true)
+
 ## Funktion
 
 - Die **-Schnittstelle erkennt**: Lobby, Rückkehr zur Lobby, Bestätigung des Verlassens, Charakterabrechnung und Belohnungsseite; Kontinuierliche Erkennungsbestätigung und Begrenzung wiederholter Vorgänge.
